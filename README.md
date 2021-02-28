@@ -35,20 +35,20 @@ Give yourself a grade for each question. Explain why you gave yourself that grad
 
 ### 1. Create and extend classes
 
-- Grade:
-- Explanation:
+- Grade: 3
+- Explanation: I get classes (I thought) and would have said 4 but I keep having an error with my test and it's probably something so simply!
 
 ### 2. Create tests for classes
 
-- Grade:
-- Explanation:
+- Grade:3
+- Explanation: As I mentioned above, ERRORS! WHY!?
 
 ### 3. Use HOFs from the Array prototype
 
-- Grade:
-- Explanation:
+- Grade: 3
+- Explanation: When I tested these in console log, it worked well. Does it work with the \_hofs.js? I'll never know because of the class error.
 
 ### 4. Create the reverse linked list method
 
-- Grade:
-- Explanation:
+- Grade: 3
+- Explanation: I did this, with help from google. And I got it. But I truly dislike linked lists haha. I will practice more.
