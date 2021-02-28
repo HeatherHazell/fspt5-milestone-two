@@ -24,7 +24,17 @@ class Inhabitants {
     this.people = people;
   }
 
-  getPeopleOver(age) {}
+  getPeopleOver(age) {
+    //get people over the age value
+    const overAgePeople = this.people.filter(person => person.age > age);
+    //convert the object to a string
+    return overAgePeople.map(person =>
+      [person.firstName, person.lastName].join(" ")
+    );
+  }
 }
+
+// const testCase = new Inhabitiants(examplePeople)
+// console.log(testCase.getPeopleOver(40))
 
 module.exports = Inhabitants;

@@ -13,7 +13,22 @@ extends the Building class. Test it!
 ------------------*/
 
 const Building = require("./building");
+//add property code so this class extends the Building class
+class Apartment extends Building {
+  constructor(floors) {
+    super(height, unit);
+    this.floors = floors;
+    this.height = 10 * floors;
+    this.unit = `feet`;
+  }
+  aptSummary() {
+    return (
+      this.heightSummary() + `It is an Appartment with ${this.floors} floors`
+    );
+  }
+}
 
-class Apartment {}
+// apt = new Apartment(10)
+// console.log(apt.aptSummary())
 
 module.exports = Apartment;
